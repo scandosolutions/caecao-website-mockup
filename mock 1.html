@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caecao Trading | Premium Flooring for Africa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandRed: '#b31b20',
+                        brandDark: '#545353',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Odoo-like smooth transitions */
+        .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .hover-lift:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="font-sans text-brandDark antialiased bg-gray-50">
+
+    <!-- Header / Navbar (Odoo Standard Header Block) -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <img class="h-12 w-auto" src="CAECAO Trading.png" alt="Caecao Trading" onerror="this.onerror=null; this.src='https://via.placeholder.com/150x50?text=CAECAO';">
+                </div>
+                <!-- Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#" class="text-brandRed font-semibold">Home</a>
+                    <a href="#" class="text-gray-600 hover:text-brandRed transition">About Us</a>
+                    <a href="#" class="text-gray-600 hover:text-brandRed transition">Shop (B2C)</a>
+                    <a href="#" class="text-gray-600 hover:text-brandRed transition">Projects</a>
+                    <a href="#" class="text-gray-600 hover:text-brandRed transition">Contact</a>
+                </nav>
+                <!-- Icons & Lang -->
+                <div class="flex items-center space-x-4">
+                    <select class="text-sm border-gray-300 rounded-md focus:ring-brandRed focus:border-brandRed">
+                        <option>EN</option>
+                        <option>AR</option>
+                        <option>FR</option>
+                    </select>
+                    <a href="#" class="text-gray-600 hover:text-brandRed"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-brandRed"><i class="fas fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Banner Section (Odoo Cover Snippet) -->
+    <section class="relative bg-gray-900 h-[600px] flex items-center">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0">
+            <img class="w-full h-full object-cover opacity-50" src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="Luxury Home Living Room">
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
+                The Strategic Link for <br>
+                <span class="text-brandRed">Premium Flooring</span> in Africa
+            </h1>
+            <p class="mt-4 text-xl text-gray-200 max-w-2xl">
+                From luxury salon carpets to heavy-duty artificial turf. Directly imported from top manufacturers in Egypt and India to your doorstep.
+            </p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 md:justify-start justify-center">
+                <a href="#" class="bg-brandRed text-white px-8 py-3 rounded-md font-semibold hover:bg-red-800 transition">Shop Home Collection</a>
+                <a href="#" class="bg-white text-brandDark px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">View B2B Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4 Activity Boxes (Odoo Columns/Features Snippet) -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brandDark">Our Specialized Divisions</h2>
+                <div class="w-24 h-1 bg-brandRed mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Activity 1 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden hover-lift border border-gray-100">
+                    <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1564683214965-3619addd900d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mosque Carpets">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Mosque Carpets</h3>
+                        <p class="text-gray-600 text-sm mb-4">High-density luxury carpets designed for heavy traffic and comfort.</p>
+                        <a href="#" class="text-brandRed font-semibold hover:underline">Explore <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                <!-- Activity 2 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden hover-lift border border-gray-100">
+                    <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1459865264687-595d652de67e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sports Fields">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sports Fields</h3>
+                        <p class="text-gray-600 text-sm mb-4">Premium artificial turf supply and installation for professional arenas.</p>
+                        <a href="#" class="text-brandRed font-semibold hover:underline">Explore <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                <!-- Activity 3 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden hover-lift border border-gray-100">
+                    <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Commercial Moquette">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Commercial Moquette</h3>
+                        <p class="text-gray-600 text-sm mb-4">Durable and elegant solutions for hotels, offices, and large spaces.</p>
+                        <a href="#" class="text-brandRed font-semibold hover:underline">Explore <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+                <!-- Activity 4 -->
+                <div class="bg-gray-50 rounded-lg overflow-hidden hover-lift border border-gray-100">
+                    <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1528017018048-932f9157ea71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Home Salons">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Home & Salons</h3>
+                        <p class="text-gray-600 text-sm mb-4">Exclusive B2C collection of modern rugs and furnishings directly to you.</p>
+                        <a href="#" class="text-brandRed font-semibold hover:underline">Explore <i class="fas fa-arrow-right ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- B2C E-commerce Highlight (Odoo Products Snippet) -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-end mb-10">
+                <div>
+                    <h2 class="text-3xl font-bold text-brandDark">Featured Home Carpets</h2>
+                    <p class="text-gray-500 mt-2">Discover our exclusive B2C collection. Order directly online.</p>
+                </div>
+                <a href="#" class="hidden md:block text-brandRed font-semibold hover:underline">View All Products</a>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Product Card (Showing Strikethrough pricing) -->
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 relative group">
+                    <span class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded z-10">Limited Time</span>
+                    <div class="relative overflow-hidden mb-4">
+                        <img src="https://images.unsplash.com/photo-1600166898405-da9535204843?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="w-full h-48 object-cover rounded-md group-hover:scale-105 transition duration-500" alt="Product">
+                        <!-- Quick Add Buttons -->
+                        <div class="absolute bottom-2 right-2 flex space-x-2 opacity-0 group-hover:opacity-100 transition">
+                            <button class="bg-white p-2 rounded-full shadow text-gray-600 hover:text-brandRed"><i class="far fa-heart"></i></button>
+                            <button class="bg-brandRed p-2 rounded-full shadow text-white hover:bg-red-800"><i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                    </div>
+                    <h4 class="font-bold text-gray-800">Royal Indian Silk Rug</h4>
+                    <p class="text-xs text-gray-500 mb-2">Material: Silk | Origin: India</p>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-brandRed font-bold text-lg">$249.00</span>
+                        <span class="text-gray-400 line-through text-sm">$320.00</span>
+                    </div>
+                </div>
+                
+                <!-- Dummy Products for UI -->
+                <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 relative group">
+                    <span class="absolute top-4 left-4 bg-black text-white text-xs font-bold px-2 py-1 rounded z-10">New Arrival</span>
+                    <div class="relative overflow-hidden mb-4">
+                        <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="w-full h-48 object-cover rounded-md group-hover:scale-105 transition duration-500" alt="Product">
+                    </div>
+                    <h4 class="font-bold text-gray-800">Modern Abstract Carpet</h4>
+                    <p class="text-xs text-gray-500 mb-2">Material: Wool | Origin: Egypt</p>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-brandDark font-bold text-lg">$180.00</span>
+                    </div>
+                </div>
+                
+                 <!-- Product 3 -->
+                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 relative group">
+                    <div class="relative overflow-hidden mb-4">
+                        <img src="https://images.unsplash.com/photo-1528017018048-932f9157ea71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="w-full h-48 object-cover rounded-md group-hover:scale-105 transition duration-500" alt="Product">
+                    </div>
+                    <h4 class="font-bold text-gray-800">Classic Office Moquette</h4>
+                    <p class="text-xs text-gray-500 mb-2">Color: Deep Blue</p>
+                    <div class="flex items-center space-x-2">
+                        <span class="text-brandRed font-bold text-lg">$85.00 / sqm</span>
+                        <span class="text-gray-400 line-through text-sm">$100.00</span>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                 <div class="bg-white p-4 rounded-lg shadow-sm border border-gray-100 relative group opacity-60">
+                     <span class="absolute top-4 left-4 bg-gray-600 text-white text-xs font-bold px-2 py-1 rounded z-10">Sold Out</span>
+                    <div class="relative overflow-hidden mb-4">
+                        <img src="https://images.unsplash.com/photo-1558211583-026858e65dbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" class="w-full h-48 object-cover rounded-md grayscale" alt="Product">
+                    </div>
+                    <h4 class="font-bold text-gray-800">Luxury Velvet Runner</h4>
+                    <div class="mt-2">
+                        <!-- WhatsApp Sold Out Link integration as requested in PDF -->
+                        <a href="https://wa.me/YOURNUMBER?text=Inquiry%20about%20Luxury%20Velvet%20Runner" class="text-xs bg-green-500 text-white px-3 py-1.5 rounded-full inline-flex items-center">
+                            <i class="fab fa-whatsapp mr-1"></i> Ask on WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section (Odoo Carousel/Brands Snippet) -->
+    <section class="py-12 border-t border-gray-200 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-sm font-bold text-gray-400 uppercase tracking-wider mb-8">Trusted Partners & Manufacturers in Egypt & India</h3>
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50 grayscale">
+                <!-- Replace with actual partner logos -->
+                <i class="fas fa-industry text-4xl"></i>
+                <i class="fas fa-building text-4xl"></i>
+                <i class="fas fa-city text-4xl"></i>
+                <i class="fas fa-warehouse text-4xl"></i>
+                <i class="fas fa-store-alt text-4xl"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brandDark text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <img src="caecao.webp" alt="Caecao Icon" class="h-10 mb-4 brightness-0 invert">
+                <p class="text-sm">Arabe pour les Echanges commerciaux en Afrique de L'ouest (C.A.E.C.A.O). Connecting global quality with African markets.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-brandRed">About Us</a></li>
+                    <li><a href="#" class="hover:text-brandRed">Shop Products</a></li>
+                    <li><a href="#" class="hover:text-brandRed">Our Policies</a></li>
+                    <li><a href="#" class="hover:text-brandRed">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Divisions</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-brandRed">Mosques (B2B)</a></li>
+                    <li><a href="#" class="hover:text-brandRed">Sports Turf</a></li>
+                    <li><a href="#" class="hover:text-brandRed">Commercial</a></li>
+                    <li><a href="#" class="hover:text-brandRed">Home & Salons (B2C)</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Connect With Us</h4>
+                <div class="flex space-x-4 mb-4">
+                    <a href="#" class="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center hover:bg-brandRed transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center hover:bg-brandRed transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="w-8 h-8 rounded-full bg-gray-700 flex items-center justify-center hover:bg-brandRed transition"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <p class="text-sm"><i class="fas fa-map-marker-alt mr-2"></i> Headquarters, Africa</p>
+                <p class="text-sm mt-2"><i class="fas fa-envelope mr-2"></i> info@caecao.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Widget -->
+    <a href="https://wa.me/YOURNUMBER" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 hover:scale-110 transition-all z-50 text-3xl">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
